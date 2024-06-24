@@ -5,6 +5,7 @@ const app = express();
 require("dotenv").config();
 
 // Import routes
+const distanceRoute = require("./routes/distanceRoute");
 const stationRoutes = require("./routes/stationRoutes");
 
 // Middleware
@@ -18,6 +19,7 @@ app.get("/", (req, res) => {
   res.send("Hello world");
 });
 
+app.use(distanceRoute);
 app.use(stationRoutes);
 
 // ============== PORT ============== //
