@@ -6,6 +6,7 @@ require("dotenv").config();
 
 // Import routes
 const distanceRoute = require("./routes/distanceRoute");
+const stationRoutes = require("./routes/stationRoutes");
 
 // Middleware
 app.use(cors());
@@ -19,6 +20,7 @@ app.get("/", (req, res) => {
 });
 
 app.use(distanceRoute);
+app.use(stationRoutes);
 
 // ============== PORT ============== //
 const PORT = process.env.PORT;
