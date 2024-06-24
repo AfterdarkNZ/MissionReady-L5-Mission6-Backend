@@ -10,33 +10,33 @@ const collection = process.env.COLLECTION;
 
 const client = new MongoClient(uri);
 
-let thing = [];
-
 const distanceController = async (address) => {
-  console.log(address);
-
   try {
-    await client.connect();
+    return new Promise(async (resolve, reject) => {
+      await client.connect();
+      const cursor = client.db(database).collection(collection).find();
+      const stations = await cursor.toArray();
+      let stationsInTwentyKm = [];
 
-    const result = await getZStation();
+      stations.forEach(async (station, index) => {
+        getDistances(station).then(async (result) => {
+          if (result.inTwenty) {
+            // Add all stations that are within twenty kms of origin
+            thisStation = { ...station, distance: result.distance };
+            stationsInTwentyKm = [...stationsInTwentyKm, thisStation];
+          }
+          if (index == stations.length - 1) {
+            // console.log("STATIONS", stationsInTwentyKm);
+            resolve(stationsInTwentyKm);
+            await client.close();
+            return;
+          }
+        });
+      });
+    });
   } catch (err) {
     console.log(err);
-  } finally {
-    await client.close();
   }
-};
-
-const getZStation = async () => {
-  const cursor = await client.db(database).collection(collection).find();
-  const stations = await cursor.toArray();
-  let distances = [];
-
-  stations.forEach((station) => {
-    getDistances(station);
-    // console.log("DONE: ", thing);
-  });
-
-  return "STUFF";
 };
 
 const getDistances = async (station) => {
@@ -53,8 +53,11 @@ const getDistances = async (station) => {
       distanceText = result.rows[0].elements[0].distance.text;
     });
   const distanceInKm = distanceText.substring(0, 4);
-  const floatDistanceInKm = distanceInKm;
-  console.log(typeof distanceInKm);
+  // The distance as a float
+  const floatDistanceInKm = parseFloat(distanceInKm);
+  // Declares wether or not the location is within 20 kms
+  const inTwenty = floatDistanceInKm <= 20 ? true : false;
+  return { inTwenty: inTwenty, distance: floatDistanceInKm };
 };
 
 module.exports = distanceController;
