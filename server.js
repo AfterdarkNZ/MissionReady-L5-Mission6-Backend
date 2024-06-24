@@ -5,6 +5,7 @@ const app = express();
 require("dotenv").config();
 
 // Import routes
+const distanceRoute = require("./routes/distanceRoute");
 
 // Middleware
 app.use(cors());
@@ -16,6 +17,8 @@ app.get("/", (req, res) => {
   console.log("Home endpoint reached");
   res.send("Hello world");
 });
+
+app.use(distanceRoute);
 
 // ============== PORT ============== //
 const PORT = process.env.PORT;
