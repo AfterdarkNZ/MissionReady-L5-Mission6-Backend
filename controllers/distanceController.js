@@ -19,7 +19,7 @@ const distanceController = async (address) => {
       let stationsInTwentyKm = [];
 
       stations.forEach(async (station, index) => {
-        getDistances(station).then(async (result) => {
+        getDistances(station, address).then(async (result) => {
           if (result.inTwenty) {
             // Add all stations that are within twenty kms of origin
             thisStation = { ...station, distance: result.distance };
@@ -39,8 +39,8 @@ const distanceController = async (address) => {
   }
 };
 
-const getDistances = async (station) => {
-  const origin = "70 Baverstock Road, Flat Bush, Auckland 2016, New Zealand";
+const getDistances = async (station, address) => {
+  const origin = address;
   const destination = `${station.location.lat}, ${station.location.lng}`;
   let distanceText;
 
