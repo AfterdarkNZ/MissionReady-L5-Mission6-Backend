@@ -11,7 +11,7 @@
 <p>The .env file has five variables.</p>
 
 1. PORT
-   <p>This is the port number the server will be active on.</p>
+<p>This is the port number the server will be active on.</p>
 
 2. API_KEY
    <p>Include your google maps api key.</p>
