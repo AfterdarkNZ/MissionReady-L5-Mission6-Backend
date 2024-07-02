@@ -1,0 +1,1550 @@
+[{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b861f"
+  },
+  "key": "albany",
+  "name": "Z - Albany Service Station",
+  "location": {
+    "lat": -36.7279,
+    "lng": 174.707
+  },
+  "displayAddress": "67 Banana street",
+  "phoneNumber": "0800 474 183",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8621"
+  },
+  "key": "botanyDowns",
+  "name": "Z - Botany Downs Service Station",
+  "location": {
+    "lat": -36.9309,
+    "lng": 174.9125
+  },
+  "displayAddress": "183 Good street",
+  "phoneNumber": "0800 957 234",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": false
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": 2.28,
+    "diesel": null
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "07:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8625"
+  },
+  "key": "henderson",
+  "name": "Z - Henderson Service Station",
+  "location": {
+    "lat": -36.879,
+    "lng": 174.6323
+  },
+  "displayAddress": "25 Sands street",
+  "phoneNumber": "0800 253 234",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8627"
+  },
+  "key": "manukau",
+  "name": "Z - Manukau Service Station",
+  "location": {
+    "lat": -36.9928,
+    "lng": 174.879
+  },
+  "displayAddress": "234 Santa street",
+  "phoneNumber": "0800 234 912",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": false
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": 2.29,
+    "diesel": null
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "23:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8628"
+  },
+  "key": "newmarket",
+  "name": "Z - Newmarket Service Station",
+  "location": {
+    "lat": -36.8667,
+    "lng": 174.7772
+  },
+  "displayAddress": "23 Chocolate street",
+  "phoneNumber": "0800 745 123",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "23:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8629"
+  },
+  "key": "northcote",
+  "name": "Z - Northcote Service Station",
+  "location": {
+    "lat": -36.8031,
+    "lng": 174.748
+  },
+  "displayAddress": "12 Grass street",
+  "phoneNumber": "0800 274 154",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": null,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b862a"
+  },
+  "key": "onehunga",
+  "name": "Z - Onehunga Service Station",
+  "location": {
+    "lat": -36.9243,
+    "lng": 174.7847
+  },
+  "displayAddress": "54 Winter street",
+  "phoneNumber": "0800 810 562",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": false
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": null
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "05:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b862b"
+  },
+  "key": "orem",
+  "name": "Z - Orem Service Station",
+  "location": {
+    "lat": -36.985,
+    "lng": 174.869
+  },
+  "displayAddress": "41 Spring street",
+  "phoneNumber": "0800 104 514",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": 2.29,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b862d"
+  },
+  "key": "pakuranga",
+  "name": "Z - Pakuranga Service Station",
+  "location": {
+    "lat": -36.909,
+    "lng": 174.854
+  },
+  "displayAddress": "32 Lime street",
+  "phoneNumber": "0800 421 351",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": false
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": 2.28,
+    "diesel": null
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "07:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b862e"
+  },
+  "key": "panmure",
+  "name": "Z - Panmure Service Station",
+  "location": {
+    "lat": -36.8887,
+    "lng": 174.8484
+  },
+  "displayAddress": "61 Python street",
+  "phoneNumber": "0800 621 423",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": null,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "23:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b862f"
+  },
+  "key": "papakura",
+  "name": "Z - Papakura Service Station",
+  "location": {
+    "lat": -37.0667,
+    "lng": 174.9433
+  },
+  "displayAddress": "85 Java street",
+  "phoneNumber": "0800 125 412",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "trailerHire",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8631"
+  },
+  "key": "ponsonby",
+  "name": "Z - Ponsonby Service Station",
+  "location": {
+    "lat": -36.857,
+    "lng": 174.7467
+  },
+  "displayAddress": "35 Shore street",
+  "phoneNumber": "0800 215 632",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8632"
+  },
+  "key": "remuera",
+  "name": "Z - Remuera Service Station",
+  "location": {
+    "lat": -36.8712,
+    "lng": 174.7985
+  },
+  "displayAddress": "32 Lemon street",
+  "phoneNumber": "0800 145 814",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": null,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "trailerHire",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8633"
+  },
+  "key": "royalOak",
+  "name": "Z - Royal Oak Service Station",
+  "location": {
+    "lat": -36.9072,
+    "lng": 174.7838
+  },
+  "displayAddress": "38 Tree street",
+  "phoneNumber": "0800 154 941",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": 2.29,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8634"
+  },
+  "key": "stJohns",
+  "name": "Z - St Johns Service Station",
+  "location": {
+    "lat": -36.8792,
+    "lng": 174.8488
+  },
+  "displayAddress": "72 Orange street",
+  "phoneNumber": "0800 914 342",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": null,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8635"
+  },
+  "key": "takapuna",
+  "name": "Z - Takapuna Service Station",
+  "location": {
+    "lat": -36.787,
+    "lng": 174.768
+  },
+  "displayAddress": "37 Blue street",
+  "phoneNumber": "0800 134 955",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8638"
+  },
+  "key": "whenuapai",
+  "name": "Z - Whenuapai Service Station",
+  "location": {
+    "lat": -36.8097,
+    "lng": 174.63
+  },
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "displayAddress": "59 Yellow street",
+  "phoneNumber": "0800 243 682",
+  "fuelPrices": {
+    "91": 2.19,
+    "95": 2.29,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8639"
+  },
+  "key": "avondale",
+  "name": "Z - Avondale Service Station",
+  "location": {
+    "lat": -36.8794,
+    "lng": 174.6987
+  },
+  "displayAddress": "92 Green street",
+  "phoneNumber": "0800 843 732",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": 2.28,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "07:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b863a"
+  },
+  "key": "birkdale",
+  "name": "Z - Birkdale Service Station",
+  "location": {
+    "lat": -36.7977,
+    "lng": 174.704
+  },
+  "displayAddress": "85 Violet street",
+  "phoneNumber": "0800 564 731",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "payAtPump",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b863b"
+  },
+  "key": "blokhouseBay",
+  "name": "Z - Blockhouse Bay Service Station",
+  "location": {
+    "lat": -36.9191,
+    "lng": 174.7143
+  },
+  "displayAddress": "35 Purple street",
+  "phoneNumber": "0800 821 735",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": null,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "trailerHire",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b863c"
+  },
+  "key": "coniferGrove",
+  "name": "Z - Conifer Grove Service Station",
+  "location": {
+    "lat": -37.0572,
+    "lng": 174.9214
+  },
+  "displayAddress": "24 Grass street",
+  "phoneNumber": "0800 243 954",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "23:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b863d"
+  },
+  "key": "devonport",
+  "name": "Z - Devonport Service Station",
+  "location": {
+    "lat": -36.831,
+    "lng": 174.801
+  },
+  "displayAddress": "85 Axel street",
+  "phoneNumber": "0800 345 850",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": false
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": 2.28,
+    "diesel": null
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b863e"
+  },
+  "key": "epsom",
+  "name": "Z - Epsom Service Station",
+  "location": {
+    "lat": -36.8917,
+    "lng": 174.7838
+  },
+  "displayAddress": "78 Unicorn street",
+  "phoneNumber": "0800 474 183",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b863f"
+  },
+  "key": "glendowie",
+  "name": "Z - Glendowie Service Station",
+  "location": {
+    "lat": -36.8647,
+    "lng": 174.8574
+  },
+  "displayAddress": "73 Hotel street",
+  "phoneNumber": "0800 752 684",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": null,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8640"
+  },
+  "key": "glenfield",
+  "name": "Z - Glenfield Service Station",
+  "location": {
+    "lat": -36.7825,
+    "lng": 174.7281
+  },
+  "displayAddress": "24 Rock street",
+  "phoneNumber": "0800 742 684",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8641"
+  },
+  "key": "greenlane",
+  "name": "Z - Greenlane Service Station",
+  "location": {
+    "lat": -36.8921,
+    "lng": 174.797
+  },
+  "displayAddress": "124 Berry street",
+  "phoneNumber": "0800 451 465",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": 2.29,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8642"
+  },
+  "key": "herneBay",
+  "name": "Z - Herne Bay Service Station",
+  "location": {
+    "lat": -36.849,
+    "lng": 174.731
+  },
+  "displayAddress": "31 Peach street",
+  "phoneNumber": "0800 143 942",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8643"
+  },
+  "key": "howick",
+  "name": "Z - Howick Service Station",
+  "location": {
+    "lat": -36.8988,
+    "lng": 174.9242
+  },
+  "displayAddress": "13 Flower street",
+  "phoneNumber": "0800 342 761",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": null,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "07:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8644"
+  },
+  "key": "mtAlbert",
+  "name": "Z - Mt Albert Service Station",
+  "location": {
+    "lat": -36.8983,
+    "lng": 174.7116
+  },
+  "displayAddress": "34 Salmon street",
+  "phoneNumber": "0800 241 734",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8645"
+  },
+  "key": "mtRoskill",
+  "name": "Z - Mt Roskill Service Station",
+  "location": {
+    "lat": -36.901,
+    "lng": 174.7385
+  },
+  "displayAddress": "71 Glow street",
+  "phoneNumber": "0800 941 751",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": 2.29,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8646"
+  },
+  "key": "mtWellington",
+  "name": "Z - Mt Wellington Service Station",
+  "location": {
+    "lat": -36.9155,
+    "lng": 174.831
+  },
+  "displayAddress": "42 Rose street",
+  "phoneNumber": "0800 413 843",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": false
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": 2.28,
+    "diesel": null
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8647"
+  },
+  "key": "ormiston",
+  "name": "Z - Ormiston Service Station",
+  "location": {
+    "lat": -36.9682,
+    "lng": 174.8881
+  },
+  "displayAddress": "43 Stamp street",
+  "phoneNumber": "0800 674 784",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8648"
+  },
+  "key": "otahuhu",
+  "name": "Z - Otahuhu Service Station",
+  "location": {
+    "lat": -36.9525,
+    "lng": 174.8436
+  },
+  "displayAddress": "34 Cement street",
+  "phoneNumber": "0800 751 346",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": null,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "21:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b8649"
+  },
+  "key": "otara",
+  "name": "Z - Otara Service Station",
+  "location": {
+    "lat": -36.9414,
+    "lng": 174.8665
+  },
+  "displayAddress": "45 Sky street",
+  "phoneNumber": "0800 763 715",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b864a"
+  },
+  "key": "papatoetoe",
+  "name": "Z - Papatoetoe Service Station",
+  "location": {
+    "lat": -36.9798,
+    "lng": 174.8458
+  },
+  "displayAddress": "73 Winner street",
+  "phoneNumber": "0800 751 843",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.19,
+    "95": 2.29,
+    "diesel": 1.49
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b864b"
+  },
+  "key": "pointChevalier",
+  "name": "Z - Point Chevalier Service Station",
+  "location": {
+    "lat": -36.8642,
+    "lng": 174.7177
+  },
+  "displayAddress": "72 Scent street",
+  "phoneNumber": "0800 784 763",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.21,
+    "95": 2.31,
+    "diesel": 1.51
+  },
+  "evCharging": [
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b864c"
+  },
+  "key": "sandringham",
+  "name": "Z - Sandringham Service Station",
+  "location": {
+    "lat": -36.8931,
+    "lng": 174.7456
+  },
+  "displayAddress": "46 Isle street",
+  "phoneNumber": "0800 412 742",
+  "fuelsAvailable": {
+    "91": true,
+    "95": false,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.18,
+    "95": null,
+    "diesel": 1.48
+  },
+  "evCharging": [
+    "fast"
+  ],
+  "facilities": [
+    "atm",
+    "wifi",
+    "toilet",
+    "carWash",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+},
+{
+  "_id": {
+    "$oid": "6677dcaeebb8a3840f1b864d"
+  },
+  "key": "teAtatu",
+  "name": "Z - Te Atatu Service Station",
+  "location": {
+    "lat": -36.8583,
+    "lng": 174.6512
+  },
+  "displayAddress": "83 Lamb street",
+  "phoneNumber": "0800 872 914",
+  "fuelsAvailable": {
+    "91": true,
+    "95": true,
+    "diesel": true
+  },
+  "fuelPrices": {
+    "91": 2.2,
+    "95": 2.3,
+    "diesel": 1.5
+  },
+  "evCharging": [
+    "fast",
+    "ultraFast"
+  ],
+  "facilities": [
+    "atm",
+    "toilet",
+    "payAtPump",
+    "trailerHire",
+    "coffee",
+    "hotFood",
+    "snacks",
+    "drinks"
+  ],
+  "openingHours": {
+    "open": "06:00",
+    "close": "22:00"
+  }
+}]
